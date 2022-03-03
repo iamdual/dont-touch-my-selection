@@ -12,7 +12,7 @@
     "96": "icons/dtms-96.png"
   },
   "browser_action": {
-    "default_title": "Prevent anti-selection scripts",
+    "default_title": "Prevent anti-selection",
     "default_icon": "icons/dtms.svg"
   },
   "background": {

@@ -13,7 +13,7 @@
     "96": "icons/dtms-96.png"
   },
   "action": {
-    "default_title": "Prevent anti-selection scripts",
+    "default_title": "Prevent anti-selection",
     "default_icon": {
       "48": "icons/dtms-48.png",
       "96": "icons/dtms-96.png"
