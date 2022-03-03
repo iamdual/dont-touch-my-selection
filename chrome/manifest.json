@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Don't Touch My Selection",
+  "version": "1.0",
+  "description": "Prevents the anti-selection scripts from web pages.",
+  "author": "Ekin Karadeniz (iamdual@icloud.com)",
+  "permissions": [
+    "activeTab", 
+    "scripting"
+  ],
+  "icons": {
+    "48": "icons/dtms-48.png",
+    "96": "icons/dtms-96.png"
+  },
+  "action": {
+    "default_title": "Prevent anti-selection scripts",
+    "default_icon": {
+      "48": "icons/dtms-48.png",
+      "96": "icons/dtms-96.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
