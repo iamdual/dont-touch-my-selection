@@ -1,4 +1,5 @@
 chrome.action.onClicked.addListener(tab => {
+   // Inject scripts and styles
    chrome.scripting.executeScript({
       target: { tabId: tab.id },
       files: ['dtms.js']
@@ -8,6 +9,13 @@ chrome.action.onClicked.addListener(tab => {
       files: ['dtms.css']
    });
    
-   chrome.action.setBadgeBackgroundColor({color: '#00A300'});
-   chrome.action.setBadgeText({text: '✓'});
+   // Change badge for the current tab
+   chrome.action.setBadgeBackgroundColor({
+      tabId: tab.id,
+      color: '#00A300'
+   });
+   chrome.action.setBadgeText({
+      tabId: tab.id,
+      text: '✓'
+   });
 });
