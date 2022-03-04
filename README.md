@@ -14,7 +14,7 @@ https://chrome.google.com/webstore/detail/dont-touch-my-selection/fclmnhckdlnell
 https://addons.mozilla.org/en-US/firefox/addon/dont-touch-my-selection/
 
 # Usage
-Install the extension, then click the 'Prevent anti-selection scripts' icon on the toolbar.
+Install the extension, then click the 'Prevent anti-selection' icon on the toolbar.
 
 # Any problems?
 Please create a new issue that containing the site address and details of the problem.
