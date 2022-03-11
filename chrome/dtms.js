@@ -1,1 +1,1 @@
-lib/dtms.js
+../lib/dtms.js
