@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Don't Touch My Selection",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Prevents the anti-selection scripts from web pages.",
   "author": "Ekin Karadeniz (iamdual@icloud.com)",
   "permissions": [
