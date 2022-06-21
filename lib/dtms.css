@@ -4,3 +4,13 @@
     user-select: auto !important;
     pointer-events: auto !important;
 }
+
+:not(#dontTouchMySelection)::selection {
+    background-color: #0078d7 !important;
+    color: #fff !important;
+}
+
+:not(#dontTouchMySelection)::-moz-selection {
+    background-color: #0078d7 !important;
+    color: #fff !important;
+}
